@@ -1,0 +1,61 @@
+.contact {
+    height: 80vh;
+    display: flex;
+    margin-top: 5rem;
+    padding: 0 3rem 0 3rem;
+}
+
+.r-contact {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.r-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.r-contact .user {
+    transform: scale(110%);
+    width: 20rem;
+    height: 2rem;
+    padding: 5px;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea  {
+    height: 5rem!important;
+}
+
+.c-blur1 {
+    top: 1rem;
+    left: 8rem;
+}
+
+    
+
+@media screen and (max-width: 480px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 9rem;
+        transform: scale(0.78);
+       }
+    
+        
+        .contact .git {
+              right: 5rem;
+              white-space: nowrap;
+              margin-bottom: 3rem;
+
+        }
+   
+}
